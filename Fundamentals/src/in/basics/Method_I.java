@@ -6,6 +6,7 @@ public class Method_I {
     	  System.out.println("hello");
       }
 	public static void main(String[] args) {
+//		System.out.println("current executing thread:" + Thread.currentThread().getName());
 		// TODO Auto-generated method stub
 		Method_I obj=new Method_I();
 		//calling function:objname.methodname()
