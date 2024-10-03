@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTOR</title>
+    <style>
+     .container, .container1{
+            background-color: rebeccapurple;
+            padding: 20px;
+        }
+        .card,.card1{
+            background-color: orange;
+            padding: 20px;
+        }
+        p{
+            padding: 20px;
+        }
+        /* general */
+.card ~ p{
+    background-color: white;
+}
+.card + p{
+    background-color: white;
+}
+.card + p + p{
+    background-color: orange;
+}
+    </style>
+</head>
+<body>
+    <center>
+        <h1>General Sibling(~) all and Adjacent sibling(+) first</h1>
+    </center>
+    <hr>
+    <h2>General sibling(~) Example</h2>
+    <section class="container">
+        <div class="card">
+            <h1>Card title</h1>
+            <h1>paragraph inside card</h1>
+        </div>
+        <p>Para-1</p>
+        <p>Para-2</p>
+        <p>Para-3</p>
+       
+
+<h2>Adjacent sibling(+) Example..!</h2>
+    </section>
+    <hr>
+    <section class="container1">
+        <div class="card1">
+            <h1>Card title</h1>
+            <h1>paragraph inside card</h1>
+        </div>
+        <p>Para-1</p>
+        <p>Para-2</p>
+        <p>Para-3</p>
+       
+
+
+    </section>
+</body>
+</html>

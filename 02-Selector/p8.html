@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTOR</title>
+    <style>
+        .container, .container1{
+            background-color: lightgray;
+        }
+        /* Descendent */
+        .container .card{
+            padding: 20px;
+            color: white;
+            border: 2px solid red;
+        }
+        /* child */
+        .container>.card1>.card1{
+            padding: 20px;
+            color: white;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Descendent Combinator (space) and child combinator(>)</h1>
+    </center>
+
+    <h2>Descendent Combinator Example..!</h2>
+    <section class="container">
+        <div class="card">
+            <h3>First Child</h3>
+            <div class="card">
+                <h3>Child card</h3>
+                <div class="card">
+                    <h3>Grand Child</h3>
+        </div>
+        </div>
+        </div>
+    </section>
+    <h2>Child Combinator Example..!</h2>
+    <section class="container1">
+        <div class="card1">
+            <h3>First Child</h3>
+            <div class="card1">
+                <h3>Child card</h3>
+                <div class="card1">
+                    <h3>Grand Child</h3>
+        </div>
+        </div>
+        </div>
+    </section>
+</body>
+</html>

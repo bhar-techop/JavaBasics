@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTOR</title>
+    <style>
+        /* Selecting HTML elements with a specific attribute */
+        [target], b[id]{
+            padding: 20px;
+            text-decoration: none;
+            background-color: slateblue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Attribute Selectors</h1>
+        <p>An attribute selector selects the HTML elements that has a specific  that has a specific attribute or attribute with a specified value.</p>
+        <p>Syntax: [attribute]</p>
+        <p>[attr] [attr=value] [attr~=value] [attribute|="value"] [attr^=value]
+            [attr$=value] [attr*=value]</p>
+
+      
+    </center>
+    <hr>
+    <h2>Attribute Selector Example..!</h2>
+    <div>
+        <a href="#">Home</a>
+        <a href="#" target="_blank">About</a>
+        <a href="#">Services</a>
+        <a href="#" target="_self">Contact</a>
+
+        <p id="p1">Hello Paragraph</p>
+        <b id="b1">Hello bold tag</b>
+    </div>
+
+</body>
+</html>

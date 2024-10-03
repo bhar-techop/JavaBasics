@@ -1,0 +1,29 @@
+.banner{
+    background-color: rgb(42, 36, 41);
+    text-align: right;
+    padding: 70px;
+    justify-content: right;
+    
+  
+}
+.ban{
+    background-color: orange;
+    padding: 40px;
+}
+
+.footer{
+    background-color: white;
+   display: flex;
+   padding: 50px;
+    
+}
+.b{
+    text-align: center;
+    
+}
+.foo{
+    background-color: white;
+}
+.foo[href="PRODUCTS"]{
+    color: orange;
+}
